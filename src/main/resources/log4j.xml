@@ -11,12 +11,12 @@
     </appender>
     
     <logger name="org.springframework" additivity="false">
-        <level value="TRACE"/>
+        <level value="DEBUG"/>
         <appender-ref ref="STDOUT"/>
     </logger>
 
     <root>
-        <level value="TRACE"/>
+        <level value="DEBUG"/>
         <appender-ref ref="STDOUT"/>
     </root>
 

@@ -1,4 +1,4 @@
-package di.beans;
+package ch02_dependency_injection.beans;
 
 public class Data {
     private int value;

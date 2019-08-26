@@ -1,7 +1,7 @@
-package di.context;
+package ch02_dependency_injection.context;
 
-import di.beans.User;
-import di.business.BusinessService;
+import ch02_dependency_injection.beans.User;
+import ch02_dependency_injection.business.BusinessService;
 
 import org.apache.log4j.Logger;
 import org.springframework.context.ApplicationContext;
@@ -11,7 +11,7 @@ import org.springframework.context.annotation.Configuration;
 
 
 @Configuration
-@ComponentScan(basePackages = { "di" })
+@ComponentScan(basePackages = {"ch02_dependency_injection"})
 class SpringContext {
 }
 

@@ -1,10 +1,10 @@
-package di;
+package ch02_dependency_injection;
 
-import di.beans.Data;
-import di.beans.User;
-import di.business.BusinessService;
-import di.business.BusinessServiceImpl;
-import di.data.DataService;
+import ch02_dependency_injection.beans.Data;
+import ch02_dependency_injection.beans.User;
+import ch02_dependency_injection.business.BusinessService;
+import ch02_dependency_injection.business.BusinessServiceImpl;
+import ch02_dependency_injection.data.DataService;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
 import org.mockito.BDDMockito;

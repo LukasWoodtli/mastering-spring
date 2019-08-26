@@ -1,8 +1,8 @@
-package di.data;
+package ch02_dependency_injection.data;
 
 
-import di.beans.Data;
-import di.beans.User;
+import ch02_dependency_injection.beans.Data;
+import ch02_dependency_injection.beans.User;
 import org.springframework.stereotype.Repository;
 
 import java.util.Arrays;

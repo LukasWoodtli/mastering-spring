@@ -1,4 +1,4 @@
-package di.beans;
+package ch02_dependency_injection.beans;
 
 public class User {
     private String id;

@@ -1,8 +1,8 @@
-package di.business;
+package ch02_dependency_injection.business;
 
-import di.beans.Data;
-import di.beans.User;
-import di.data.DataService;
+import ch02_dependency_injection.beans.Data;
+import ch02_dependency_injection.beans.User;
+import ch02_dependency_injection.data.DataService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

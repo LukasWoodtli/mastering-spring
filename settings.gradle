@@ -1,2 +1,3 @@
-rootProject.name = 'ch02_dependency_injection'
 
+rootProject.name = 'mastering-spring'
+include 'ch02_dependency_injection'

@@ -1,5 +1,6 @@
 package com.woodtli.ch05_spring_boot;
 
+import com.woodtli.SpringBootApplication;
 import com.woodtli.ch05_spring_boot.bean.Todo;
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -17,7 +18,7 @@ import static org.hamcrest.core.StringContains.containsString;
 import static org.junit.Assert.assertThat;
 
 @RunWith(SpringJUnit4ClassRunner.class)
-@SpringBootTest(classes = Ch05SpringBootApplication.class, webEnvironment =
+@SpringBootTest(classes = SpringBootApplication.class, webEnvironment =
         SpringBootTest.WebEnvironment.RANDOM_PORT)
 public class TodoControllerIntegrationTests {
 

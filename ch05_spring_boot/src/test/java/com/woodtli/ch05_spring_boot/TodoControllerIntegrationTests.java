@@ -25,7 +25,8 @@ public class TodoControllerIntegrationTests {
     @LocalServerPort
     private int port;
 
-    private TestRestTemplate template = new TestRestTemplate();
+    private TestRestTemplate template = new TestRestTemplate(); //.withBasicAuth("user-name", "user-password");
+
     @Test
     public void retrieveTodos() throws Exception {
         String expected = "["
@@ -46,7 +47,7 @@ public class TodoControllerIntegrationTests {
     }
 
     @Test
-    public void addTodo() throws Exception {
+    public void addTodo() {
         Todo todo = new Todo(-1, "Jill", "Learn Hibernate", new Date(),
                 false);
         URI location = template

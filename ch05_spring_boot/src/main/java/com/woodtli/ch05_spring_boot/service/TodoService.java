@@ -1,11 +1,12 @@
 package com.woodtli.ch05_spring_boot.service;
 
+import com.woodtli.ch05_spring_boot.bean.Todo;
+import org.springframework.cache.annotation.Cacheable;
+import org.springframework.stereotype.Service;
+
 import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
-
-import com.woodtli.ch05_spring_boot.bean.Todo;
-import org.springframework.stereotype.Service;
 
 
 
@@ -19,6 +20,7 @@ public class TodoService {
 		todos.add(new Todo(3, "Jill", "Learn Hibernate", new Date(), false));
 	}
 
+	@Cacheable("todos")
 	public List<Todo> retrieveTodos(String user) {
 		List<Todo> filteredTodos = new ArrayList<>();
 		for (Todo todo : todos) {

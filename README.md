@@ -1,6 +1,6 @@
-# Mastering Spring 5.0
+# Mastering Spring 5
 
-Examples from the book [Mastering Spring 5.0](https://www.packtpub.com/application-development/mastering-spring-50)
+Examples from the book *Mastering Spring 5* book from [Packt](https://www.packtpub.com/)
 
 ## Build
 
@@ -9,18 +9,20 @@ Examples from the book [Mastering Spring 5.0](https://www.packtpub.com/applicati
 
 ## Content
 
-|Chaper | Title                                              | Done |
-|-------|----------------------------------------------------|------|
-| 1     | Evolution to Spring Framework 5.0                  |  ✓   |
-| 2     | Dependency Injection                               |  ✓   |
-| 3     | Building a Web Application with Spring MVC         |  ✓   |
-| 4     | Evolution toward Microservices and Cloud-Native    |  ✓   |
-| 5     | Building Microservices with Spring Boot            |  ✓   |
-| 6     | Extending Microservices                            |  ✓   |
-| 7     | Advanced Spring Boot Features                      |      |
-| 8     | Spring Data                                        |      |
-| 9     | Spring Cloud                                       |      |
-| 10    | Spring Cloud Data Flow                             |      |
-| 11    | Reactive Programming                               |      |
-| 12    | Spring Best Practices                              |      |
-| 13    | Working with Kotlin in Spring                      |      |
+|Chapter | Title                                               | Done |
+|--------|-----------------------------------------------------|------|
+| 1      | Spring Landscape - Framework, Modules, and Projects |  ✓   |
+| 2      | Dependency Injection and Unit Testing               |      |
+| 3      | Building Web Applications with Spring MVC           |      |
+| 4      | Getting Started with Spring Boot                    |      |
+| 5      | Digging Deeper into the Spring Framework            |      |
+| 6      | Building REST APIs with Spring Boot                 |      |
+| 7      | Unit Testing REST API with Spring Boot              |      |
+| 8      | Securing REST API with Spring Security              |      |
+| 9      | Full Stack App with React and Spring Boot           |      |
+| 10     | Managing Data with Spring Data                      |      |
+| 11     | Getting Started with Microservices                  |      |
+| 12     | Building Microservices with Spring Boot and Spring Cloud |      |
+| 13     | Reactive Programming                                |      |
+| 14     | Spring Best Practices                               |      |
+| 15     | Working with Kotlin in Spring                       |      |

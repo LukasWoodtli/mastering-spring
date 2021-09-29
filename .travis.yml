@@ -8,4 +8,4 @@ before_install:
 
 
 script:
-- docker run --rm -it -v $TRAVIS_BUILD_DIR:/mastering-spring -w /mastering-spring adoptopenjdk/openjdk11:jdk-11.0.3.7 ./gradlew check
+- docker run --rm -it -v $TRAVIS_BUILD_DIR:/mastering-spring -w /mastering-spring/ch02_dependency_injection adoptopenjdk/openjdk11:jdk-11.0.3.7 ./gradlew check

@@ -1,4 +1,0 @@
-
-rootProject.name = 'mastering-spring'
-include 'ch02_dependency_injection'
-include 'ch05_spring_boot'

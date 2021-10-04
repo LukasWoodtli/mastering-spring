@@ -12,8 +12,8 @@ Examples from the book *Mastering Spring 5* book from [Packt](https://www.packtp
 |Chapter | Title                                               | Done |
 |--------|-----------------------------------------------------|------|
 | 1      | Spring Landscape - Framework, Modules, and Projects |  ✓   |
-| 2      | Dependency Injection and Unit Testing               |      |
-| 3      | Building Web Applications with Spring MVC           |      |
+| 2      | Dependency Injection and Unit Testing               |  ✓   |
+| 3      | Building Web Applications with Spring MVC           | (✓)  |
 | 4      | Getting Started with Spring Boot                    |      |
 | 5      | Digging Deeper into the Spring Framework            |      |
 | 6      | Building REST APIs with Spring Boot                 |      |

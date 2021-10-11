@@ -24,10 +24,13 @@ jobs:
       - checkout
       - run:
           working_directory: ch02_dependency_injection
+          name: ch02_dependency_injection
           command: ./gradlew check
       - run:
           working_directory: ch04_spring_boot
+          name: ch04_spring_boot
           command: ./gradlew check
       - run:
           working_directory: ch05_aspect_oriented_programming
+          name: ch05_aspect_oriented_programming
           command: ./gradlew bootRun

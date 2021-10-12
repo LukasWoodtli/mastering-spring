@@ -1,6 +1,7 @@
 package com.woodtli.todo.service;
 
 import com.woodtli.todo.bean.Todo;
+import org.springframework.cache.annotation.Cacheable;
 import org.springframework.stereotype.Service;
 
 import java.util.ArrayList;
@@ -14,13 +15,15 @@ public class TodoService {
 
     private static int todoCount = 3;
 
-        static {
-            todos.add(new Todo(1, "Jack", "Mastering Spring 5", new Date(), false));
-            todos.add(new Todo(2, "Julia", "Data Science", new Date(), false));
-            todos.add(new Todo(2, "Romeo", "Love is Everything", new Date(), false));
-        }
+    static {
+        todos.add(new Todo(1, "Jack", "Mastering Spring 5", new Date(), false));
+        todos.add(new Todo(2, "Julia", "Data Science", new Date(), false));
+        todos.add(new Todo(2, "Romeo", "Love is Everything", new Date(), false));
+    }
 
 
+    // consider using JSR-107 for caching
+    @Cacheable(cacheNames = "todos", condition = "#user.length < 10")
     public List<Todo> retrieveTodos(String user) {
         List<Todo> filteredTodos = new ArrayList<>();
         for (Todo todo : todos) {

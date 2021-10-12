@@ -9,6 +9,7 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.servlet.support.ServletUriComponentsBuilder;
 
+import javax.validation.Valid;
 import java.net.URI;
 import java.util.List;
 
@@ -46,7 +47,7 @@ public class TodoController {
 
     @PostMapping("/users/{name}/todos")
     public ResponseEntity<?> add(@PathVariable String name,
-                                 @RequestBody Todo todo) {
+                                 @Valid @RequestBody Todo todo) {
         Todo createdTodo = todoService.addTodo(name, todo.getDesc(), todo.getTargetDate(), todo.isDone());
 
         if (createdTodo == null) {

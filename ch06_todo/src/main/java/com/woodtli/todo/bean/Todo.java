@@ -2,13 +2,18 @@ package com.woodtli.todo.bean;
 
 import org.springframework.stereotype.Component;
 
+import javax.validation.constraints.NotNull;
+import javax.validation.constraints.Size;
 import java.util.Date;
 
 @Component
 public class Todo {
     private int id;
+
+    @NotNull
     private String user;
 
+    @Size(min = 9, message = "Enter at least 9 characters")
     private String desc;
 
     private Date targetDate;

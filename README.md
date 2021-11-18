@@ -4,7 +4,7 @@ Examples from the book *Mastering Spring 5* book from [Packt](https://www.packtp
 
 ## Build
 
-[![Build Status](https://travis-ci.org/LukasWoodtli/mastering-spring.svg?branch=master)](https://travis-ci.org/LukasWoodtli/mastering-spring)
+[![CircleCI](https://circleci.com/gh/LukasWoodtli/mastering-spring.svg?style=shield)](https://app.circleci.com/pipelines/github/LukasWoodtli/mastering-spring)
 
 
 ## Content

@@ -34,3 +34,11 @@ jobs:
           working_directory: ch05_aspect_oriented_programming
           name: ch05_aspect_oriented_programming
           command: ./gradlew bootRun
+      - run:
+          working_directory: ch06_todo
+          name: ch06_todo
+          command: ./gradlew test
+      - run:
+          working_directory: ch10_spring_data
+          name: ch10_spring_data
+          command: ./gradlew test

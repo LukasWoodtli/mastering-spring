@@ -46,3 +46,7 @@ jobs:
           working_directory: ch13_reactive
           name: ch13_reactive
           command: ./gradlew compileJava
+      - run:
+          working_directory: ch15_kotlin
+          name: ch15_kotlin
+          command: ./gradlew test

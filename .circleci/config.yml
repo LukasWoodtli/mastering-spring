@@ -42,3 +42,7 @@ jobs:
           working_directory: ch10_spring_data
           name: ch10_spring_data
           command: ./gradlew compileJava
+      - run:
+          working_directory: ch13_reactive
+          name: ch13_reactive
+          command: ./gradlew compileJava
